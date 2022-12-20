@@ -1,0 +1,45 @@
+/* Mobile view */
+header {
+    background-color: #0B1C51;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 52px;
+    color: #fff;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul a {
+    margin: 0 20px 0 0;
+    font-family: Montserrat;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Desktop view */
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    header h1 {
+        display: flex;
+        font-size: 48px;
+        padding: 0;
+    }
+
+
+}
